@@ -1,0 +1,16 @@
+.button {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  transition: box-shadow 0.3s linear;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.75);
+  }
+}
